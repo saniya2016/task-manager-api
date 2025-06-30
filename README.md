@@ -1,0 +1,3 @@
+This is a simple Task Manager API built using Node.js, Express, and PostgreSQL. It allows users to register, log in, and manage their tasks securely using JWT authentication. I created this project to understand how backend APIs work, how to structure a Node.js project properly, and how to connect it to a database using Sequelize ORM. All the major operations like creating, updating, deleting, and fetching tasks are protected routes that require a valid token. I’ve tested everything using Postman, and you can find screenshots of the tests below.
+
+![image](https://github.com/user-attachments/assets/e969cbbb-1993-4d59-972b-0f2d6364ed51)
