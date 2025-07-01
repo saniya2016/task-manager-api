@@ -18,13 +18,13 @@ const sequelize = new Sequelize(
 const connectDB = async () => {
   try {
     await sequelize.authenticate();
-    console.log('✅ Database connected successfully');
+    console.log(' Database connected successfully');
 
     // Sync all models with DB
     await sequelize.sync({ alter: true }); // or { force: true } for dev reset
-    console.log('✅ Models synchronized with database');
+    console.log(' Models synchronized with database');
   } catch (error) {
-    console.error('❌ Unable to connect to the database:', error.message);
+    console.error(' Unable to connect to the database:', error.message);
     process.exit(1);
   }
 };
